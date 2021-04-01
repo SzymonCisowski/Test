@@ -1,6 +1,4 @@
 #include <Keypad.h> 
-//#include <LiquidCrystal.h>
-//LiquidCrystal lcd(14,15,16,17,18,19);
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
